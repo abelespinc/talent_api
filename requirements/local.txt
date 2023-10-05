@@ -1,0 +1,26 @@
+-r base.txt
+
+Werkzeug[watchdog]==2.2.2 # https://github.com/pallets/werkzeug
+ipdb==0.13.9  # https://github.com/gotcha/ipdb
+psycopg[binary]==3.1.8  # https://github.com/psycopg/psycopg
+faker==15.0.0  # https://github.com/joke2k/faker
+
+# Testing
+# ------------------------------------------------------------------------------
+mypy==1.2.0  # https://github.com/python/mypy
+django-stubs==4.2.0  # https://github.com/typeddjango/django-stubs
+djangorestframework-stubs==3.14.0  # https://github.com/typeddjango/djangorestframework-stubs
+
+# Code quality
+# ------------------------------------------------------------------------------
+flake8==5.0.4  # https://github.com/PyCQA/flake8
+flake8-isort==4.2.0  # https://github.com/gforcada/flake8-isort
+black==22.8.0  # https://github.com/psf/black
+pylint-django==2.5.3  # https://github.com/PyCQA/pylint-django
+
+# Django
+# ------------------------------------------------------------------------------
+factory-boy==3.2.1  # https://github.com/FactoryBoy/factory_boy
+
+django-debug-toolbar==3.6.0  # https://github.com/jazzband/django-debug-toolbar
+django-extensions==3.2.0  # https://github.com/django-extensions/django-extensions
