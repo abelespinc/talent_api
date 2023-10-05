@@ -1,0 +1,168 @@
+{
+    "signIn": "Log in",
+    "undo": "Ongedaan maken",
+    "saveChanges": "Wijzigingen opslaan",
+
+    "configuration": {
+        "scrapy": {
+            "statusScrapyPeriodicity": {
+                "name": "Periodiciteit (dagen)",
+                "helpText": "De status van de aanbiedingen wordt elke X dagen gecontroleerd"
+            },
+            "statusScrapyDaysToStart": {
+                "name": "Dagen tot begin",
+                "helpText": "De status van nieuwe aanbiedingen wordt vanaf X dagen gecontroleerd"
+            },
+            "statusScrapyDuration": {
+                "name": "Looptijd (dagen)",
+                "helpText": "De status van de aanbiedingen wordt gedurende X dagen gecontroleerd"
+            }
+        }
+    },
+
+    "companies": {
+        "competitor": "Concurrent",
+        "publishedByCompetitor": "Deze aanbieding is geplaatst door een concurrerend bedrijf",
+        "markAsCompetitor": "Markeer bedrijf als concurrent",
+        "profiles": "Profielen",
+        "noProfiles": "Geen profielen",
+        "companiesList": "Lijst van bedrijven",
+        "redCompaniesAreCompetitors": "Bedrijven in het rood zijn concurrenten",
+        "clickOnIconToMarkAsCompetitor": "Om een ​​bedrijf als wedstrijd te markeren, klikt u op het pictogram.",
+        "youMarkedAsCompetitor": "U heeft {company} gemarkeerd als concurrent"
+    },
+
+    "header": {
+        "home": "Startpagina",
+        "offers": "Kansen",
+        "companies": "Bedrijven",
+        "configuration": "Instelling"
+    },
+
+    "home": {
+        "feed": {},
+        "search": {
+            "what": "Wat",
+            "where": "Waas",
+            "searchOffers": "Vind aanbiedingen"
+        },
+        "nav": {
+            "offersFeed": "Lijsten met vacatures"
+        }
+    },
+
+    "recentSearches": {
+        "recentSearches": "Recente zoekopdrachten",
+        "empty": "U heeft nog geen zoekopdracht uitgevoerd",
+        "performedOn": "Uitgevoerd op"
+    },
+
+    "offers": {
+        "offer": "Vacanture",
+        "offers": "vacanture | vacantures",
+        "noOffers": "Geen vacantures",
+        "publishedBy": "gepost door",
+        "publishedWithCurrentFilters": "gepubliceerd met huidige filters | geplaatst met huidige filters",
+        "seeIn": "Zie aanbieding binnen",
+        "seeDuplicateIn": "Toon me het duplicaat in",
+        "duplicates": "duplicaat | duplicaten",
+
+        "search": {
+            "what": "Wat",
+            "where": "Waar",
+            "searchOffers": "Vind aanbiedingen",
+
+            "filters": {
+                "clearCompanyFilter": "Bedrijfsfilter wissen",
+
+                "temporality": {
+                    "name": "Werkdag",
+                    "fullTime": "Voltijds",
+                    "fullTimeDefault": "Voltijds (standaard)",
+                    "partTime": "Deeltijd"
+                },
+                "attendance": {
+                    "name": "Persoonlijk/telewerken",
+                    "onSite": "Persoonlijk",
+                    "onSiteDefault": "Persoonlijk (standaard)",
+                    "remote": "Telewerken",
+                    "partiallyRemote": "Hybriden "
+                },
+                "contractType": {
+                    "name": "Contract",
+                    "fixed": "Vast",
+                    "fixedDefault": "Vast (standaard)",
+                    "temporal": "Tijdelijk",
+                    "internship": "Geleerde",
+                    "freelance": "Freelance",
+                    "others": "Anderen",
+                    "contractor": "Werk en dienst"
+                },
+                "competitor": {
+                    "name": "Concurrent",
+                    "onlyCompetitors": "Alleen concurrerende bedrijven",
+                    "nonCompetitors": "Zonder concurrerende bedrijven"
+                },
+                "postingDate": {
+                    "name": "Publicatie datum",
+                    "today": "Vandaag",
+                    "yesterday": "Gisteren",
+                    "last7Days": "Laatste 7 dagen",
+                    "last15Days": "Laatste 15 dagen",
+                    "last30Days": "Laatste 30 dagen",
+                    "last45Days": "Laatste 45 dagen",
+                    "last90Days": "Laatste 90 dagen"
+                },
+                "status": {
+                    "name": "Staat",
+                    "active": "Actieve",
+                    "notActive": "Afwachtende",
+                    "noStatus": "Staatloos"
+                },
+                "duplicates": {
+                    "name": "Duplicaten",
+                    "withDuplicates": "Met duplicaten (yes)",
+                    "withoutDuplicates": "Zonder duplicaten (no)"
+                },
+                "minSalary": {
+                    "name": "Minimum salaris"
+                },
+                "titleAndDescription": {
+                    "naam": "Titel/Beschrijving",
+                    "onlyTitle": "Zoeken in titel",
+                    "onlyDescription": "Zoeken in beschrijving"
+                }
+            }
+        },
+        "job": {
+            "details": "Details van de vacature",
+            "salary": "Salaris",
+            "type": "Soort vacature",
+            "skills": "Vaardigheden",
+            "completeDescription": "Volledige omschrijving van de vacature"
+        }
+    },
+
+    "locations": {
+        "search": {
+            "badSearch": "Geen resultaten"
+        },
+        "type": {
+            "city": "Stad",
+            "subregion": "Provincie"
+        },
+        "assignLocation": "Toewijzen van locatie"
+    },
+
+    "users": {
+        "login": {
+            "errors": {
+                "invalidPassword": "Ongeldig wachtwoord"
+            }
+        },
+        "user": "Gebruikersnaam",
+        "password": "Wachtwoord",
+        "signIn": "Log in",
+        "logOut": "Log uit"
+    }
+}

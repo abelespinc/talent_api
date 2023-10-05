@@ -1,0 +1,168 @@
+{
+    "signIn": "Se connecterundo",
+    "undo": "Défaire",
+    "saveChanges": "Enregistrer",
+
+    "configuration": {
+        "scrapy": {
+            "statusScrapyPeriodicity": {
+                "name": "Périodicité",
+                "helpText": "Le statut de l'offre d'emploi sera revu tous les X jours"
+            },
+            "statusScrapyDaysToStart": {
+                "name": "Days to start",
+                "helpText": "Le statut des nouvelles offres commencera à être vérifié à partir de X jours"
+            },
+            "statusScrapyDuration": {
+                "name": "Check duration (days)",
+                "helpText": "Le statut des offres sera vérifié pendant X jours"
+            }
+        }
+    },
+
+    "companies": {
+        "competitor": "Concurrence",
+        "publishedByCompetitor": "Cette offre a été publiée par une entreprise concurrente",
+        "markAsCompetitor": "Marquer l'entreprise comme concurrent",
+        "profiles": "Profils",
+        "noProfiles": "Pas de profils",
+        "companiesList": "Liste des entreprises",
+        "redCompaniesAreCompetitors": "Les entreprises en rouge sont en concurrence",
+        "clickOnIconToMarkAsCompetitor": "Pour marquer une entreprise comme concurrente, cliquez sur son icône.",
+        "youMarkedAsCompetitor": "Vous avez marqué {company} comme concurrent"
+    },
+
+    "header": {
+        "home": "Page d’accueil",
+        "offers": "Opportunités",
+        "companies": "Entreprises",
+        "configuration": "Configuration"
+    },
+
+    "home": {
+        "feed": {},
+        "search": {
+            "what": "Que",
+            "where": "Où",
+            "searchOffers": "Rechercher des offres"
+        },
+        "nav": {
+            "offersFeed": "Liste des offres d'emploi"
+        }
+    },
+
+    "recentSearches": {
+        "recentSearches": "Dernières recherches",
+        "empty": "Vous n'avez pas encore effectué de recherche",
+        "performedOn": "Effectuée le"
+    },
+
+    "offers": {
+        "offer": "Offre d'emploi",
+        "offers": "Offre d'emploi | Offres d'emploi",
+        "noOffers": "Pas d'offre d'emploi",
+        "publishedBy": "posté par",
+        "publishedWithCurrentFilters": "publié avec les filtres actuels",
+        "seeIn": "Voir l'offre dans",
+        "seeDuplicateIn": "Voir le doublon dans",
+        "duplicates": "doublon | doublons",
+
+        "search": {
+            "what": "Que",
+            "where": "Où",
+            "searchOffers": "Rechercher des offres",
+
+            "filters": {
+                "clearCompanyFilter": "Effacer le filtre de l'entreprise",
+
+                "temporality": {
+                    "name": "Journée de travail",
+                    "fullTime": "À plein temps",
+                    "fullTimeDefault": "À plein temps (par défaut)",
+                    "partTime": "À temps partiel"
+                },
+                "attendance": {
+                    "name": "En personne / Télétravail",
+                    "onSite": "En personne",
+                    "onSiteDefault": "En personne (par défaut)",
+                    "remote": "Télétravail",
+                    "partiallyRemote": "Télétravail partiel"
+                },
+                "contractType": {
+                    "name": "Type de contrat",
+                    "fixedDefault": "Indéterminé (par défaut)",
+                    "fixed": "Indéterminé",
+                    "temporal": "Temporaire",
+                    "internship": "Boursier",
+                    "freelance": "Freelance",
+                    "others": "Autres",
+                    "contractor": "Consultant"
+                },
+                "competitor": {
+                    "name": "Concurrents",
+                    "onlyCompetitors": "Concurrents uniquement",
+                    "nonCompetitors": "Pas concurrents"
+                },
+                "postingDate": {
+                    "name": "Date de publication",
+                    "today": "Aujourd'hui",
+                    "yesterday": "Hier",
+                    "last7Days": "Il y a 7 jours",
+                    "last15Days": "Il y a 15 jours",
+                    "last30Days": "Il y a 30 jours",
+                    "last45Days": "Il y a 45 jours",
+                    "last90Days": "Il y a 90 jours"
+                },
+                "status": {
+                    "name": "État",
+                    "active": "Actif",
+                    "notActive": "Inactif",
+                    "noStatus": "Sans état"
+                },
+                "duplicates": {
+                    "name": "Doublons",
+                    "withDuplicates": "Avec des doublons (yes)",
+                    "withoutDuplicates": "Sans doublons (no)"
+                },
+                "minSalary": {
+                    "name": "Minimum salary"
+                },
+                "titleAndDescription": {
+                    "name": "Titre/Description",
+                    "onlyTitle": "Recherche dans le titre",
+                    "onlyDescription": "Recherche dans la description"
+                }
+            }
+        },
+        "job": {
+            "details": "Détails de l'offre d'emploi",
+            "salary": "Salaire",
+            "type": "Type de travail",
+            "skills": "Compétences",
+            "completeDescription": "Description complète"
+        }
+    },
+
+    "locations": {
+        "search": {
+            "badSearch": "Pas de résultats"
+        },
+        "type": {
+            "city": "Ville",
+            "subregion": "Province"
+        },
+        "assignLocation": "Assigner un emplacement"
+    },
+
+    "users": {
+        "login": {
+            "errors": {
+                "invalidPassword": "Mot de passe invalide"
+            }
+        },
+        "user": "Nom d'utilisateur",
+        "password": "Mot de passe",
+        "signIn": "Se connecter",
+        "logOut": "Déconnexion"
+    }
+}

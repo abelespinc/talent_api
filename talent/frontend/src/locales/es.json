@@ -1,0 +1,167 @@
+{
+    "undo": "Deshacer",
+    "saveChanges": "Guardar cambios",
+
+    "configuration": {
+        "scrapy": {
+            "statusScrapyPeriodicity": {
+                "name": "Periodicidad (días)",
+                "helpText": "Se comprobará el estado de las ofertas cada X días"
+            },
+            "statusScrapyDaysToStart": {
+                "name": "Días hasta empezar",
+                "helpText": "Se empezará a comprobar el estado de las nuevas ofertas a partir de X días"
+            },
+            "statusScrapyDuration": {
+                "name": "Duración (días)",
+                "helpText": "Se comprobará el estado de las ofertas durante X días"
+            }
+        }
+    },
+
+    "companies": {
+        "competitor": "Competidor",
+        "publishedByCompetitor": "Esta oferta ha sido publicada por la competencia",
+        "markAsCompetitor": "Marcar empresa como competidora",
+        "profiles": "Perfiles",
+        "noProfiles": "Sin perfiles",
+        "companiesList": "Listado de empresas",
+        "redCompaniesAreCompetitors": "Las empresas en rojo son competencia.",
+        "clickOnIconToMarkAsCompetitor": "Para marcar una empresa como competencia haz click en su icono.",
+        "youMarkedAsCompetitor": "Has marcado como competidor a {company}"
+    },
+
+    "header": {
+        "home": "Inicio",
+        "offers": "Oportunidades",
+        "companies": "Empresas",
+        "configuration": "Configuración"
+    },
+
+    "home": {
+        "feed": {},
+        "search": {
+            "what": "Qué",
+            "where": "Dónde",
+            "searchOffers": "Buscar ofertas"
+        },
+        "nav": {
+            "offersFeed": "Feed de empleo"
+        }
+    },
+
+    "recentSearches": {
+        "recentSearches": "Búsquedas recientes",
+        "empty": "No has realizado aún ninguna búsqueda",
+        "performedOn": "Buscado el"
+    },
+
+    "offers": {
+        "offer": "Oferta",
+        "offers": "oferta | ofertas",
+        "noOffers": "Sin ofertas",
+        "publishedBy": "publicada por | publicadas por",
+        "publishedWithCurrentFilters": "publicada con los filtros actuales | publicadas con los filtros actuales",
+        "seeIn": "Ver oferta original en",
+        "seeDuplicateIn": "Ver duplicado en",
+        "duplicates": "duplicado | duplicados",
+
+        "search": {
+            "what": "Qué",
+            "where": "Dónde",
+            "searchOffers": "Buscar ofertas",
+
+            "filters": {
+                "clearCompanyFilter": "Limpiar filtro de empresa",
+
+                "temporality": {
+                    "name": "Temporalidad",
+                    "fullTime": "Jornada completa",
+                    "fullTimeDefault": "Jornada completa (por defecto)",
+                    "partTime": "Jornada parcial"
+                },
+                "attendance": {
+                    "name": "Presencialidad",
+                    "onSite": "Presencial",
+                    "onSiteDefault": "Presencial (por defecto)",
+                    "remote": "Remoto",
+                    "partiallyRemote": "Híbrido"
+                },
+                "contractType": {
+                    "name": "Contrato",
+                    "fixed": "Fijo",
+                    "fixedDefault": "Fijo (por defecto)",
+                    "temporal": "Temporal",
+                    "internship": "Becario",
+                    "freelance": "Autónomo",
+                    "others": "Otros",
+                    "contractor": "Obra y servicio"
+                },
+                "competitor": {
+                    "name": "Competidores",
+                    "onlyCompetitors": "Solo competidores",
+                    "nonCompetitors": "No competidores"
+                },
+                "postingDate": {
+                    "name": "Fecha de publicación",
+                    "today": "Hoy",
+                    "yesterday": "Ayer",
+                    "last7Days": "Últimos 7 días",
+                    "last15Days": "Últimos 15 días",
+                    "last30Days": "Últimos 30 días",
+                    "last45Days": "Últimos 45 días",
+                    "last90Days": "Últimos 90 días"
+                },
+                "status": {
+                    "name": "Estado",
+                    "active": "Activa",
+                    "notActive": "No activa",
+                    "noStatus": "Sin estado"
+                },
+                "duplicates": {
+                    "name": "Duplicados",
+                    "withDuplicates": "Con duplicados",
+                    "withoutDuplicates": "Sin duplicados"
+                },
+                "minSalary": {
+                    "name": "Salario mínimo"
+                },
+                "titleAndDescription": {
+                    "name": "Título/Descripción",
+                    "onlyTitle": "Buscar en título",
+                    "onlyDescription": "Buscar en descripción"
+                }
+            }
+        },
+        "job": {
+            "details": "Detalles del empleo",
+            "salary": "Salario",
+            "type": "Tipo de empleo",
+            "skills": "Cualificaciones",
+            "completeDescription": "Descripción completa del empleo"
+        }
+    },
+
+    "locations": {
+        "search": {
+            "badSearch": "Sin resultados"
+        },
+        "type": {
+            "city": "Ciudad | Ciudades",
+            "subregion": "Provincia | Provincias"
+        },
+        "assignLocation": "Asignar localización"
+    },
+
+    "users": {
+        "login": {
+            "errors": {
+                "invalidPassword": "La contraseña no es válida"
+            }
+        },
+        "user": "Usuario",
+        "password": "Contraseña",
+        "signIn": "Iniciar sesión",
+        "logOut": "Cerrar sesión"
+    }
+}

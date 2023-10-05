@@ -1,0 +1,21 @@
+.nav-link {
+    --bs-nav-link-color: $body-color;
+    --nav-link-border-bottom-width: 2px;
+    --nav-link-font-size: 18px;
+
+    font-size: var(--nav-link-font-size);
+    font-weight: 500;
+    transition: border 0.1s ease-out;
+    border-bottom: var(--nav-link-border-bottom-width) transparent solid;
+
+    &:hover,
+    &:focus {
+        border-bottom: var(--nav-link-border-bottom-width) var(--bs-nav-link-hover-color) solid;
+    }
+
+    &.active {
+        font-weight: bold;
+        color: var(--bs-nav-link-hover-color);
+        border-bottom: var(--nav-link-border-bottom-width) var(--bs-nav-link-hover-color) solid;
+    }
+}

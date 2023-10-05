@@ -1,0 +1,168 @@
+{
+    "signIn": "Sign in",
+    "undo": "Undo",
+    "saveChanges": "Save changes",
+
+    "configuration": {
+        "scrapy": {
+            "statusScrapyPeriodicity": {
+                "name": "Periodicity",
+                "helpText": "Job position status will be checked every X days"
+            },
+            "statusScrapyDaysToStart": {
+                "name": "Days to start",
+                "helpText": "Job position status will be started to checked after X days"
+            },
+            "statusScrapyDuration": {
+                "name": "Check duration (days)",
+                "helpText": "Job position status will be checked until this day"
+            }
+        }
+    },
+
+    "companies": {
+        "competitor": "Competitor",
+        "publishedByCompetitor": "This job offer has been published by a competitor company",
+        "markAsCompetitor": "Mark this company as a competitor",
+        "profiles": "Profiles",
+        "noProfiles": "Without profiles",
+        "companiesList": "Companies list",
+        "redCompaniesAreCompetitors": "Companies marked in red are competitors",
+        "clickOnIconToMarkAsCompetitor": "To mark a company as competitor click on the icon",
+        "youMarkedAsCompetitor": "you have marked {company} as a competitor"
+    },
+
+    "header": {
+        "home": "Home",
+        "offers": "Opportunities",
+        "companies": "Companies",
+        "configuration": "Configuration"
+    },
+
+    "home": {
+        "feed": {},
+        "search": {
+            "what": "What",
+            "where": "Where",
+            "searchOffers": "Search job offers"
+        },
+        "nav": {
+            "offersFeed": "Job offers feed"
+        }
+    },
+
+    "recentSearches": {
+        "recentSearches": "Recent searches",
+        "empty": "You have not yet performed a search",
+        "performedOn": "Performed on"
+    },
+
+    "offers": {
+        "offer": "Job Offer",
+        "offers": "job offer | job offers",
+        "noOffers": "No job offers",
+        "publishedBy": "published by",
+        "publishedWithCurrentFilters": "published with current filters",
+        "seeIn": "Show me the original job offer in",
+        "seeDuplicateIn": "Show me the duplicate in",
+        "duplicates": "duplicate | duplicates",
+
+        "search": {
+            "what": "What",
+            "where": "Where",
+            "searchOffers": "Search job offers",
+
+            "filters": {
+                "clearCompanyFilter": "Clear companies filters",
+
+                "temporality": {
+                    "name": "Full-time / Part-time",
+                    "fullTime": "Full-time",
+                    "fullTimeDefault": "Full-time (default)",
+                    "partTime": "Part-time"
+                },
+                "attendance": {
+                    "name": "Presential / Teleworking",
+                    "onSite": "Presential",
+                    "onSiteDefault": "Presential (default)",
+                    "remote": "Teleworking",
+                    "partiallyRemote": "Partial teleworking"
+                },
+                "contractType": {
+                    "name": "Contract type",
+                    "fixed": "Permanent",
+                    "fixedDefault": "Permanent (default)",
+                    "temporal": "Temporary contract",
+                    "internship": "Internship",
+                    "freelance": "Freelance",
+                    "others": "Others",
+                    "contractor": "Contractor"
+                },
+                "competitor": {
+                    "name": "Competitors",
+                    "onlyCompetitors": "Only competitors",
+                    "nonCompetitors": "No competitors"
+                },
+                "postingDate": {
+                    "name": "Publish date",
+                    "today": "Today",
+                    "yesterday": "Yesterday",
+                    "last7Days": "Last 7 days",
+                    "last15Days": "Last 15 days",
+                    "last30Days": "Last 30 days",
+                    "last45Days": "Last 45 days",
+                    "last90Days": "Last 90 days"
+                },
+                "status": {
+                    "name": "Status",
+                    "active": "Active",
+                    "notActive": "Inactive",
+                    "noStatus": "Without status"
+                },
+                "duplicates": {
+                    "name": "Duplicates",
+                    "withDuplicates": "With duplicates",
+                    "withoutDuplicates": "Without duplicates"
+                },
+                "minSalary": {
+                    "name": "Minimum salary"
+                },
+                "titleAndDescription": {
+                    "name": "Title/Description",
+                    "onlyTitle": "Search on title",
+                    "onlyDescription": "Search on description"
+                }
+            }
+        },
+        "job": {
+            "details": "Job details",
+            "salary": "Salary",
+            "type": "Job type",
+            "skills": "Skills",
+            "completeDescription": "Complete description"
+        }
+    },
+
+    "locations": {
+        "search": {
+            "badSearch": "No results"
+        },
+        "type": {
+            "city": "City",
+            "subregion": "Province"
+        },
+        "assignLocation": "Assign location"
+    },
+
+    "users": {
+        "login": {
+            "errors": {
+                "invalidPassword": "Invalid password"
+            }
+        },
+        "user": "User",
+        "password": "Password",
+        "signIn": "Sign in",
+        "logOut": "Log out"
+    }
+}

@@ -1,0 +1,25 @@
+@import 'bootstrap/scss/_functions.scss';
+@import 'bootstrap/scss/_variables.scss';
+@import 'bootstrap/scss/_mixins.scss';
+
+@mixin scrollbar {
+    &::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #c1c1c1;
+    }
+
+    &::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+
+        @include media-breakpoint-up(md) {
+            width: 8px;
+            height: 8px;
+        }
+    }
+}
